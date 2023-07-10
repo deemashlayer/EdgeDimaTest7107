@@ -1,6 +1,17 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.371
+- serviceName: edge.dimatest7107.integrations:testflow
+  packages:
+  - name: EdgeDimaTest7107
+    version: "1.0"
+  - name: CommonUtils
+    version: "1.0"
 packages:
 - name: EdgeDimaTest7107
   gitServerName: dima
