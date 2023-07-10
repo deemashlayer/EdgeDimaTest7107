@@ -78,9 +78,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">stagetest</value>
-    <value name="createdDate">1689002539596</value>
-    <value name="lastModifiedDate">1689002539596</value>
+    <value name="lastModifiedBy">stagetest</value>
+    <value name="lastModifiedDate">1689002821100</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">6eb4f7413f9a449ea4a50881386287d6</value>
       <null name="group"/>
@@ -101,6 +100,10 @@
           <value name="serviceName">pub.math:addInts</value>
           <value name="transformerSupport">true</value>
         </record>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
