@@ -1,0 +1,16 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeDimaTest7107
+  gitServerName: dima
+  gitUrl: https://github.com/deemashlayer/EdgeDimaTest7107
+  gitUsername: deemashlayer
+  gitToken: edge.scaffolding.EdgeDimaTest7107.dima.gitToken
+  gitBranch: master
+- name: CommonUtils
+  gitServerName: dima
+  gitUrl: https://github.com/deemashlayer
+  gitUsername: deemashlayer
+  gitToken: edge.scaffolding.CommonUtils.dima.gitToken
+  gitBranch: "1.0"
