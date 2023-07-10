@@ -12,6 +12,12 @@ services:
     version: "1.0"
   - name: CommonUtils
     version: "1.0"
+- serviceName: edge.dimatest7107.integrations:testflow2
+  packages:
+  - name: EdgeDimaTest7107
+    version: "1.0"
+  - name: CommonUtils
+    version: "1.0"
 packages:
 - name: EdgeDimaTest7107
   gitServerName: dima
